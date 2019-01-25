@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="73dp">
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="944dp"
+        android:layout_height="33dp"
+        android:background="@color/colorAccent"
+        android:onClick="showToast"
+        android:text="@string/button_label_toast"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="944dp"
+        android:layout_height="32dp"
+        android:background="@color/colorAccent"
+        android:onClick="countUp"
+        android:text="@string/button_lable_count"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="424dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="944dp"
+        android:layout_height="364dp"
+        android:gravity="center_vertical"
+        android:text="@string/count_initial_value"
+        android:textAlignment="center"
+        android:textColor="@color/color3"
+        android:textSize="120sp"
+        android:textStyle="bold"
+        tools:background="@color/color2"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="57dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>
